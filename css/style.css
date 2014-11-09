@@ -1,0 +1,129 @@
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: 0 auto; 
+}
+
+.home-width {
+  max-width: 720px;
+}
+
+.home-body-width {
+  max-width: 710px;
+}
+
+.bg-white {
+  background-color:rgba(255, 255, 255, 1);
+}
+
+.menu {
+  padding-top: 15px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.flex-container ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container ul a{
+    padding: 5px 15px;
+    margin: 4px 10px;
+    color: #000;
+    background: #fff;
+    border-radius: 7px;
+    font-size: 1.25em;
+    min-width: 199px;
+}
+
+.flex-container ul a li{
+    text-align: center;
+}
+
+hr {
+  margin-top: 5px;
+}
+
+/**************************************/
+/*Helper Classes
+/**************************************/
+.semi-transparent {
+  background-color:rgba(255, 255, 255, .7);
+}
+
+.margin-top-medium {
+  margin-top: 10px;
+}
+
+.margin-sides-light {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.padding-top-light {
+  padding-top: 5px;
+}
+
+.margin-bottom-zero {
+  margin-bottom: 0;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+/**************************************/
+/*Responsive Styles
+/**************************************/
+@media screen and (min-width: 768px) {
+  .info-area {
+    margin-top:100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .flex-container ul a{
+    width: 100%;
+  }
+  #name-box {
+    margin-top: 10px;
+  }
+
+  .menu {
+    padding-top: 5px;
+  }
+
+}
+
+/**************************************/
+/*Fading/Falling Words Scripts
+/**************************************/
+.falling-text {
+  display: inline-block;
+  position: relative;
+}
+
+.widget-area>div {
+  background-color: #ffffff;
+}
+
+.widget-area>div>p {
+  margin-bottom: 0;
+}
+
+
