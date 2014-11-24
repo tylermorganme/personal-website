@@ -3,7 +3,7 @@ var descriptions1 = [
 	"Chef",
 	"Reader",
 	"Developer",
-	"Lover",
+	"Lover of Life",
 	"Wino",
 	"Connoisseur",
 	"Tinkerer",
@@ -14,8 +14,9 @@ var descriptions1 = [
 	"Artist",
 	"Thinker",
 	"Leader",
-	"Advocate",
-	"Technologist"
+	"Technologist",
+	"DJ",
+	"Data Barbarian"
 ];
 
 var toggleFallFade = function() {
